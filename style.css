@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    background-color: #2225;
-    color: #222;
+    background-color: #3d3d3d;
+    color: #ebebeb;
     height: 75px;
     display: flex;
     justify-content: center;
@@ -40,21 +40,22 @@ main {
 }
 
 .item-container:hover {
-    box-shadow: 0 0 10px #2228;
+    box-shadow: 0 2px 10px #2228;
+    transform: translateY(-2px);
 }
 
 .item-container .item-title:hover {
-    color: rgb(136, 207, 54);
-    text-decoration: underline rgb(119, 153, 79);
+    color: rgb(133, 54, 207);
+    text-decoration: underline rgb(105, 79, 153);
 }
 
 .item-title {
-    color: rgb(119, 153, 79);
+    color: #3d3d3d;
 }
 
 footer {
-    background-color: #2225;
-    color: #222;
+    background-color: #3d3d3d;
+    color: #ebebeb;
     height: 50px;
     display: flex;
     justify-content: center;
